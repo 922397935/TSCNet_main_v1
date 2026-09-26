@@ -1,0 +1,9 @@
+name: abide
+batch_size: 32
+test_batch_size: 32
+val_batch_size: 32
+train_set: 0.6
+val_set: 0.1
+path: F:\Temp\TSCnet-main\data\abide\abide.npy
+stratified: True
+drop_last: True
