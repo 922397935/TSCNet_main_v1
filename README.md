@@ -1,13 +1,6 @@
 # TSCNet: A Transformer-Simplicial Convolutional Network for Functional Brain Network Classification
 
 
-## Datasets
-ABIDE
-Download the ABIDE dataset from [here](https://drive.google.com/file/d/14UGsikYH_SQ-d_GvY2Um2oEHw3WNxDY3/view?usp=sharing).
-
-
-
-
 ## Installation
 
 ```bash
@@ -74,3 +67,5 @@ python -m source --multirun datasz=100p model=snt,bnt,fbnetgen,brainnetcnn,trans
 
 More running parameters could be referred to the `/source/conf` folders and the provided running scripts for each part of the study.
 
+
+```
